@@ -31,11 +31,14 @@ ol>li>ul, ul>li {
     padding: 0;
 } */
 
-h1{
+h1 , h2{
     letter-spacing: 0.25em;
-    text-transform: uppercase;
     color: #a4a400;
     text-decoration: underline;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 h1>span{
