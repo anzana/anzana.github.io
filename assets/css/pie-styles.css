@@ -18,6 +18,9 @@ span {
 .customer-review {
     background-color: #FFFFA8;
     font-style: italic;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 ol>li>ul, ul>li {
