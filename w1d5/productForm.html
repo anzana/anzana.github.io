@@ -21,6 +21,7 @@
             color: #575e64;
         }
     </style>
+    <script defer src="productForm.js"></script>
     <title>Document</title>
 </head>
 
@@ -78,9 +79,9 @@
                     <label for="supplier" class="form-label">Supplier</label>
                     <select id="supplier" class="form-select">
                         <option selected>Select a supplier</option>
-                        <option value="1">Supplier 1</option>
-                        <option value="2">Supplier 2</option>
-                        <option value="3">Supplier 3</option>
+                        <option value="Supplier 1">Supplier 1</option>
+                        <option value="Supplier 2">Supplier 2</option>
+                        <option value="Supplier 3">Supplier 3</option>
                       </select>
                 </div>
             </div>
@@ -104,7 +105,9 @@
                 <div >
                     <button type="reset" class="btn btn-outline-primary controlButtons ms-3">Reset</button>
                     <button type="cancel" class="btn btn-outline-danger controlButtons ms-3">Cancel</button>
-                    <button type="submit" class="btn btn-outline-info controlButtons ms-3">Add Product</button>
+                    <button type="submit" id="submit" class="btn btn-outline-info controlButtons ms-3">Add Product</button>
+
+
                 </div>
             </div>
           </form>
